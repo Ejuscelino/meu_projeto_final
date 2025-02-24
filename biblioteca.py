@@ -10,19 +10,7 @@ def adicionar_livro():
     
     print(f'O livro "{titulo}" de {autor} foi adicionado com sucesso!')
 
-#def consultar_livro():
-    #Consulta um livro pelo título e exibe suas informações.
-   # titulo_busca = input("Digite o título do livro que deseja consultar: ")
-    #encontrado = False  
 
-    #for livro in livros:
-     #   if livro["titulo"].lower() == titulo_busca.lower():  
-      #      print(f'Título: {livro["titulo"]}, Autor: {livro["autor"]}, Disponível: {livro["disponivel"]}')
-       #     encontrado = True
-        #    break  
-
-    #if not encontrado:
-     #   print("Livro não encontrado.")
 def listar_livros():
     """Lista todos os livros cadastrados na biblioteca."""
     if not livros:
